@@ -5,8 +5,8 @@ Selenium and ScalaTest Template
 
 1. 準備  
 - 基本的なScala/sbt環境 
-- Selenium WebDriver (FireFox Driver Chrome Driver)
-- https://docs.seleniumhq.org/projects/webdriver/
+- Selenium WebDriver (FireFox Driver, Chrome Driver)  
+https://docs.seleniumhq.org/projects/webdriver/
 - Chrome, Firefox
 
 2. 実行  
