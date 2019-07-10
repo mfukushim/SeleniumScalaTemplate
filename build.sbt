@@ -14,4 +14,6 @@ libraryDependencies ++= Seq(
   "com.typesafe" % "config" % "1.3.4",
   "org.scalatest" %% "scalatest" % "3.0.8" % "test",
   "org.seleniumhq.selenium" % "selenium-java" % "3.141.59" % "test",
+  "com.decodified" %% "scala-ssh" % "0.9.0",
+
 )
