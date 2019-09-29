@@ -6,6 +6,7 @@ import org.scalatest.{BeforeAndAfterAll, FlatSpec}
 import org.scalatestplus.selenium.WebBrowser
 
 class YahooSearchSpec extends FlatSpec with WebBrowser with BeforeAndAfterAll {
+  System.setProperty("webdriver.gecko.driver", "webdriver/geckodriver.exe")
   implicit val webDriver: WebDriver = new FirefoxDriver
   implicit val webBrowser: WebBrowser = this
   implicit val yahooPage: YahooCommon = new YahooCommon
